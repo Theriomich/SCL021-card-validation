@@ -38,9 +38,9 @@ const validator = {
     for (var i = 0; i < newArray.length; i++) {
       sumaDeNumeros = sumaDeNumeros + newArray[i];
     }
-      
 
-    
+
+
     //si la suma es multiplo de 10 la tarjeta es valida, es true
     if (sumaDeNumeros % 10 === 0 ) {
       alert("Tarjeta válida, pago realizado con éxito!");
@@ -49,19 +49,20 @@ const validator = {
       alert("Tarjeta invalida, vuelve a intentarlo");
     }
   }
-  
-  
+
+
 
 };
 
 
 export default validator;
-    
-  
 
- 
- 
-  
+
+
+
+
+
+
 
 
 

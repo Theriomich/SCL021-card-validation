@@ -20,7 +20,6 @@ const maskify = (cardNumber) => {
   '#'.repeat(Math.max(0, cardNumberString.length - 4))
  + cardNumberString.substr(-4);
  return maskifyNumber
- 
 };
 let numberToValidate=""
 cardNumberInput.addEventListener("input", (evt) => {
@@ -39,12 +38,10 @@ cardNumberInput.addEventListener("input", (evt) => {
 //const numberMask(numberToMask) = maskify 4556364607935616
 
 
-
 if (button !== null) {
   button.addEventListener("click", (event) => {
     event.preventDefault();
     console.log("Enviando formulario...");
-  
     validator.isValid(numberToValidate);
   });
 }
@@ -62,4 +59,4 @@ if (button !== null) {
 //11.Desarrollar funcion validacion
 //12.Desarrollar Masiky
 
- 
+
